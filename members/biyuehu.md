@@ -1,22 +1,40 @@
-# 你的昵称
-
-> 这是一份示例。请复制为以自己 GitHub 用户名命名的文件，不要直接修改本文件。
+# 有村ロミ
 
 - GitHub：[@biyuehu](https://github.com/biyuehu)
 - 感兴趣的方向：前端 / 后端
-- 目前接触过：写你用过的工具或做过的事情，没有基础也可以如实填写
+- 目前接触过：见下文
 
 ## 我想学什么
 
+参加下文。经验最多的当属 Web 方向，尤其是前端。后端也有不同了解。技术了解广度应该还行。
+
+目前写得最多也最爱的语言是 TypeScript，第二多第二爱的语言是 Rust，再然后是 Haskell。
+
+热衷于了解不同编程语言之间的差距、各种新颖的现代化的编程语言设计。不固守某一语言、框架，不限制自己的眼界。
+
+对函数式编程语言，以及程序语言理论、类型论等计算机科学理论领域尤为感兴趣。
+
 ## 我想做什么
 
-描述一个想做的小项目，或想参与的挑战。
+见下文
 
 ## 一个想问的问题
 
-写下你对学习、协作或工作室的一个问题。
+<!-- TODO: ... -->
 
-## 笔记 / 文章
+## 笔记
+
+- 2026-10-06：[从 OOP 协逆变到类型极性、负递归和可终止性](https://i.arimuraromi.com/post/oop-rec-total)
+- 2026-08-03：[Koka入门③：效果系统、效果处理、自定义控制流](https://i.arimuraromi.com/post/koka-learn-3)
+- 2026-07-31：[比较编程①：enum与ADT的真相，以及广义代数数据类型](https://i.arimuraromi.com/post/compro-1-enum)
+- 2026-07-27 ：[Koka入门①：副作用与错误处理史、现代语言困境、安装](https://i.arimuraromi.com/post/koka-learn-1)
+- 2026-01-22：[Scala3 观察日志1：类、类型类、对象、隐式实例、函数式](https://i.arimuraromi.com/post/scala-observing-1)
+- 2024-09-03：[代码变量/函数/方法/类/文件/项目命名规范](https://i.arimuraromi.com/post/33)
+- 2023-07-01：[JS的原型、原型链、构造函数](https://i.arimuraromi.com/post/16)
+- 2023-06-16：[Git笔记](https://i.arimuraromi.com/post/15)
+- 2022-08-12：[HTML笔记](https://i.arimuraromi.com/post/3)
+- 2022-08-09：[JavaScript笔记1-ES5~6语法](https://i.arimuraromi.com/post/2)
+- 2020-12-05：[MarkDown基础语法](https://i.arimuraromi.com/post/1)
 
 ## 作品
 
@@ -25,6 +43,8 @@
 ### 本月正在开发中
 
 #### [ts-plus-plus](https://github.com/biyuehu/ts-plus-plus)
+
+- 开始：2026.10
 
 昨日在我朋友怂恿下拟定的一个小团体内共同开发项目，基于 TypeScript 的 `Release-6.0` 分支的全新编程语言，旨在扩展 TypeScript 的类型系统能力以及引入现代语言特性，相关设计方向可参考 `README`，拟定加入特性可参考 [提案](https://github.com/biyuehu/ts-plus-plus/issues/2)。
 
@@ -48,6 +68,7 @@ const arrayFunctor: Functor<Arrays> = {
 
 #### [MoPress](https://github.com/biyuehu/mopress)
 
+- 开始：2026.6
 - [函数式！强大的文档网站兼通用网站生成工具](https://www.bilibili.com/video/BV1gaKN6EEtc)
 - [官网与文档](https://mo.himeno-sena.com/)
 - 技术栈：MoonBit
@@ -78,6 +99,7 @@ async fn main {
 
 #### [MonadBeat](https://github.com/biyuehu/monadbeat)
 
+- 开始：2026.9
 - 技术栈：Python、FastAPI、UnoCSS、Solid、TypeScript
 - 参考企划：[MonadBeat / 单子律动](https://gist.github.com/biyuehu/27f199e96e3345519784ca73b4b68549)
 
@@ -87,7 +109,7 @@ async fn main {
 
 #### **[RomiNest](https://github.com/biyuehu/romi-nest)**
 
-- 开始：
+- 开始：2024.10
 - 技术栈：Angular、TypeScript、Rust、Axum、Sea-ORM、Lit、UuoCSS、Bun
 - 介绍文章：[耗时两年，我做了这个极致个人化的全栈博客系统](https://i.arimuraromi.com/post/this-site)
 - 介绍视频：[极致个人化的全栈开源博客项目基于Rust与Angular！](https://www.bilibili.com/video/BV1P4tJ6eEYC)
@@ -113,6 +135,8 @@ async fn main {
 
 #### [WebAgent](https://github.com/biyuehu/webagent)
 
+- 开始：2026.8
+
 一个轻量级、基于 DSL 驱动的 AI 工具，用于文件操作、代码修改和命令执行——为网页和客户端AI助手而设计。
 
 Web Agent 与众不同：兼容任何网页AI——复制生成的提示，将其粘贴到浏览器的AI聊天中（Claude、ChatGPT、DeepSeek等），让 AI 返回 DSL 命令（基于 MarkDown）。零成本且免费，无需 API 调用，白嫖网页 AI 额度。即时，在本地使用 Bun 运行。透明，在执行前，你可以看到每一个文件变更和命令。它弥合了“浏览器中的AI”和“你机器上的文件”之间的差距。
@@ -120,8 +144,8 @@ Web Agent 与众不同：兼容任何网页AI——复制生成的提示，将�
 #### **[KotoriBot](https://github.com/kotorijs/kotori)**
 
 - 开始：2023.5
-- 介绍视频：[]()
-- [官网](https://kotori.js.org/)
+- 介绍视频：[基于 TS 与 Node 的新一聊天机器人框架，支持多平台](https://www.bilibili.com/video/BV19xsxeEEP9)、[基于Node.js的Kotori机器人插件开发教程](https://www.bilibili.com/video/BV1MCFTeoE98)
+- [官网与文档](https://kotori.js.org/)
 
 当年效仿 Koishi 的造轮。给了我很多第一次：第一次思考项目架构、学习设计模式、学习 AOP、Monorepo、复杂的构建流程、CICD、单元测试、包发版等。
 
@@ -131,10 +155,12 @@ Web Agent 与众不同：兼容任何网页AI——复制生成的提示，将�
 - 解耦合：基于控制反转（IOC）与面向切面编程（AOP）思想，减少代码冗余与复杂度
 - 现代化：使用现代化的 ECMAScript 语法规范与强大的 TypeScript 类型支持
 
+确实挺大的，三十余个插件模块以及 WebUI 也是自己弄的，篇幅原因不展开了，感兴趣可自行看官网文档。
+
 #### [HimenoSena](https://github.com/biyuehu/HimenoSena)
 
 - 开始：2025.2
-- 介绍文章：[]()
+- 介绍文章：[我做了一个姬野星奏的专属网站](https://www.bilibili.com/video/BV17mKsezEcw)
 - 介绍视频：[姬野星奏网站2026.6更新介绍](https://www.bilibili.com/video/BV1itE96bEDf)
 - [himeno-sena.com](https://himeno-sena.com/)
 - 技术栈：Deno、TypeScript、WebComponents、Lit
@@ -143,7 +169,7 @@ Web Agent 与众不同：兼容任何网页AI——复制生成的提示，将�
 
 #### [StarON](https://github.com/biyuehu/staron)
 
-- 开始：2023.5
+- 开始：2026.8
 
 一个超轻量的 npm 库，作用是要求使用者登录 GitHub 账号然后判断该账户是否 Star 指定项目，未 Star 触发退出不让用（或者自定义钩子），适用于 CLI 工具。顺手为 WebAgent 项目做的。
 
@@ -162,7 +188,7 @@ Fn((ctx) => { /* ... */ })    // fully custom handling
 #### **[SenaLang](https://github.com/biyuehu/sena-lang)**
 
 - 介绍视频：[自制编程语言之基于Rust的实验性支持一等类型多后端现代函数式语言](https://www.bilibili.com/video/BV1JaYrzEEpk)
-- 开始：2025.8
+- 开始：2024.12
 - [在线使用](https://l.himeno-sena.com)
 
 一门基于 Rust 开发的支持多后端、多范式、现代化的函数式编程语言。计划支持一等类型、类型类、列表推导式、代数效果系统、RankNTypes、FOmega（HKT）、LLVM / WASM / Native C 等后端。现已实现基本语法、代数数据类型、模式匹配、自定义中缀运算符、JS 后端、直接解释器、一等类型。
@@ -175,6 +201,7 @@ Fn((ctx) => { /* ... */ })    // fully custom handling
 
 #### [SenaMusic](https://github.com/biyuehu/sena-music)
 
+- 开始：2026.5
 - 技术栈：TypeScrip、Lit-html、WebComponents、Zod、tRPC、Android、Desktop、UnoCSS
 
 一个轻量级的自托管音乐播放器，将来自多个来源的歌曲汇集到统一的播放列表中（以网易云音乐源作为主要来源播放列表）。你可以听需要 VIP 的歌曲或在大陆被禁播的歌曲。已支持 网易云音乐、QQ 音乐、BiliBili、YouTube 源获取。计划支持 Android、Windows、Web 三平台。
@@ -241,6 +268,7 @@ httpClient.setSongOrder({ id, order: newIndex }).then((res) => ...)
 
 #### [SenaVN](https://github.com/biyuehu/vn-cli)
 
+- 开始：2026.4
 - 技术栈：Haskell、Rust、Sqlite、WinAPI、GHC、Cabal
 
 基于 Haskell 编程语言主导、Rust 胶水对接的视觉小说计时、管理、云端数据同步工具，与前作 GalKeeper 最大不同的是：
@@ -261,9 +289,9 @@ httpClient.setSongOrder({ id, order: newIndex }).then((res) => ...)
 
 #### [GardenMansion](https://github.com/biyuehu/GardenMansion)
 
+- 时间：2025.10 开始，2026.8 结束
 - 介绍文章：[一次艺术表演——我用四门函数式语言写了个全栈项目](https://i.arimuraromi.com/post/four-fp)
 - 介绍视频：[我用四门函数式语言写了一个CRUD项目](https://www.bilibili.com/video/BV1QZub6bEfz)
-- 时间：2025.10 开始，2026.8 结束
 - 技术栈：PureScript、Elm、Haskell、Idris2、TypeScript、Python、DHall、LevelDB、Bun、Node.JS、UnoCSS
 
 前端采用 Elm 编程语言与 Vite，后端采用自行用 PureScript 编程语言、基于 Node.JS 的 http 库与 Monad 变换器封装的核心（被 Monad 强大和恐怖吓哭），数据库采用 Idris2 编程语言基于 LevelDB 封装，通过 JS FFI 对接 PureScript 后端。前后端共同类型使用 Haskell 编程语言表示，Elm 与 PureScript 的代码生成通过 Python 脚本实现。前后端胶水代码使用微量 TypeScript、JavaScript、CSS、HTML。样式采用 UnoCSS。配置文件采用 DHall。开发工具采用 Bun、Just、
@@ -285,9 +313,9 @@ httpClient.setSongOrder({ id, order: newIndex }).then((res) => ...)
 #### [DiceScript](https://github.com/biyuehu/dice-script)
 
 - [演示网站](dice-script.vercel.app)
-- 介绍视频：[]()
+- 介绍视频：[一款基于Idris类型安全强大的骰子表达式开源解析库](https://www.bilibili.com/video/BV14ui5BgEoj)
+- 时间：2025.3
 - 技术栈：Idris2、Bun、Python、Codeberg、Vite
-- 时间：2025
 
 基于 Idris2 编程语言实现的一个骰子表达式解释器，含完整的词法分析、语法分析、求值器三过程。支持高级用法（数学函数、Lambda）。支持 JS、ChezScheme、Ref C、Racket 多个编译后端。并且还用 Idris2 通过 JS FFI 实现了前端网页编写。是个人第一个使用 Idris2 主导完成的正式项目，感受到了 Idris2 这门依赖类型的现代函数式编程语言的惊艳（LSP 不是很好用就是了）。
 
@@ -300,8 +328,8 @@ httpClient.setSongOrder({ id, order: newIndex }).then((res) => ...)
 
 #### [Sirius2](https://github.com/biyuehu/sirius2) & [Sirius](https://github.com/biyuehu/sirius)
 
-- 演示视频（v2）：[]()
-- 时间：2025
+- 演示视频（v2）：[国际版Addon实现文件本地读写](https://www.bilibili.com/video/BV139Tqz4Exd)
+- 时间：2025.1
 - 技术栈：tsup、tsx、Rust、Salvo
 
 基于原生 BDS 运行的下一代最全面的 Minecraft 基岩版 BDS 服务器基础&综合性功能插件。问基岩版 Addon 提供了文件操作、数据库操作的能力，同时有了成套的 TPA、HOME、LAND、HELPER 等非零散性的基础服务器插件。宗旨继承于 Sirius1，亮点我想是为五年前搞 MC 开发的我所在的那个地方传来了工程化开发的火种。不再持续维护。第一次学习到配置 tsup 工具打包 TypeScript 以及 tsx 这一运行工具。
@@ -310,15 +338,16 @@ Sirius1 则是基于 LeviLamina 运行的下一代最全面的 Minecraft 基岩�
 
 #### [Tsukiko](https://github.com/biyuehu/tsukiko)
 
-- 介绍视频：[]()
-- 时间：2023
+- 介绍视频：[基于TypeScript开发的运行时下动态类型检查](https://www.bilibili.com/video/BV11j421R7tL)
+- 时间：2023.11
 - 技术栈：pnpm、TypeScript、Jest
 
 灵感来自于 Zod，类似的一个轻量级 TypeScript 运行时类型校验库。那会儿对 TypeScript 还属于开智阶段，又对运行时校验很好奇（毕竟本身也是个一直以来的痛点，对于后端返回数据的安全性），所以就自己尝试实现了一个。第一次感受到了类型体操的洗礼（但其实也没有太复杂的体操）在为了实现精准的类型推断时。印象中除了单元测试外，还用到了一个工具从 JSDoc 中自动生成文档。不再持续维护。
 
 #### [MoeHub](https://github.com/biyuehu/moehub)
 
-- 介绍视频：[]()
+- 介绍文章：[个人向的角色收藏与管理网站系统](https://i.arimuraromi.com/post/30)
+- 介绍视频：[开源的GAL/动漫角色收藏网站系统](https://www.bilibili.com/video/BV1mQxSerEzk)
 - 时间：2024.6
 - 技术栈：pnpm、TypeScript、Koa、Prisma、Inversify、React、BiomeJS
 
@@ -326,7 +355,7 @@ Sirius1 则是基于 LeviLamina 运行的下一代最全面的 Minecraft 基岩�
 
 #### [HuliTOOL](https://github.com/biyuehu/hulitool)
 
-- 介绍视频：[]()
+- 介绍视频：[基于Vue3+Ts的纯前端工具箱应用网站](https://www.bilibili.com/video/BV1R44y1w7e3)
 - 时间：2023.7
 - 技术栈：Vue3、TypeScript、Vite、Pinia、MDUI
 - [在线使用](https://foxtool.vercel.app/)
@@ -335,7 +364,7 @@ Sirius1 则是基于 LeviLamina 运行的下一代最全面的 Minecraft 基岩�
 
 #### [HULICore](https://github.com/biyuehu/hulicore)
 
-- 时间：2022 ~ 2024。2026.8 入土归档。
+- 时间：2022~2024。2026.8 入土归档。
 - 技术栈：PHP、Layui、JQuery、JavaScript、Bootstrap、MySQL、PHPEmailer
 
 基于原生 PHP 制造一整套框架，主要封装了数据库操作、伪静态路由、功能函数等功能，框架遵守 MVC 架构，应用实例由 Controller 控制器、Model 模型、View 视图三部分组成，并在一定基础上参考了 typecho，由着网站主题 Theme 与插件 Plugin 两样用户级的功能。
@@ -347,7 +376,7 @@ Sirius1 则是基于 LeviLamina 运行的下一代最全面的 Minecraft 基岩�
 #### [Mikoto](https://github.com/biyuehu/mikoto)
 
 - 介绍视频：[Teal语言体验一次游，像素打乱工具网站Demo](https://www.bilibili.com/video/BV1VE8B6zEMS)
-- 时间：2026.
+- 时间：2026.7
 - [在线使用](https://mikoto-img.vercel.app/)
 
 使用 Teal 编程语言开发的图片反审查库，用了某个像素打乱算法。顺带用 Teal to Lua 然后 Lua in JS 以及 TS to JS 的方式写了基于 Bun 的 CLI 版封装和基于 Vite 的网页样式。性能很差，主要是对接半天的过程很有趣，Teal 语言也很不错，感觉像 Lua 的 TypeScript。作为体验 Teal 语言的项目。
@@ -382,12 +411,12 @@ Sirius1 则是基于 LeviLamina 运行的下一代最全面的 Minecraft 基岩�
 
 #### [ResPlayer](https://github.com/biyuehu/resplayer)
 
-- 时间：2026
+- 时间：2026.8
 
 基于 ResScript 语言开发的网页嵌入式音乐播放器，可传统嵌入、可作为 npm package。Vibe 为主。现用于 RomiNest 中。
 
 #### [MathForge](https://github.com/biyuehu/mathforge)
 
-- 时间：2026
+- 时间：2026.8
 
 一个基于本地题库的高考数学刷题桌面应用，用 WPF (.NET) 构建，内置 LaTeX 公式渲染。问就是想用用 C# 并且刚好在某处看到某人弄的题库数据，所以就做了，顺带送给朋友。Vibe 为主。
