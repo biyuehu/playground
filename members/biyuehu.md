@@ -6,7 +6,7 @@
 
 ## 我想学什么
 
-参加下文。经验最多的当属 Web 方向，尤其是前端。后端也有不同了解。技术了解广度应该还行。
+详见下文。经验最多的当属 Web 方向，尤其是前端。后端也有不同了解。技术了解广度应该还行。
 
 目前写得最多也最爱的语言是 TypeScript，第二多第二爱的语言是 Rust，再然后是 Haskell。
 
@@ -27,7 +27,7 @@
 - 2026-10-06：[从 OOP 协逆变到类型极性、负递归和可终止性](https://i.arimuraromi.com/post/oop-rec-total)
 - 2026-08-03：[Koka入门③：效果系统、效果处理、自定义控制流](https://i.arimuraromi.com/post/koka-learn-3)
 - 2026-07-31：[比较编程①：enum与ADT的真相，以及广义代数数据类型](https://i.arimuraromi.com/post/compro-1-enum)
-- 2026-07-27 ：[Koka入门①：副作用与错误处理史、现代语言困境、安装](https://i.arimuraromi.com/post/koka-learn-1)
+- 2026-07-27：[Koka入门①：副作用与错误处理史、现代语言困境、安装](https://i.arimuraromi.com/post/koka-learn-1)
 - 2026-01-22：[Scala3 观察日志1：类、类型类、对象、隐式实例、函数式](https://i.arimuraromi.com/post/scala-observing-1)
 - 2024-09-03：[代码变量/函数/方法/类/文件/项目命名规范](https://i.arimuraromi.com/post/33)
 - 2023-07-01：[JS的原型、原型链、构造函数](https://i.arimuraromi.com/post/16)
@@ -64,7 +64,7 @@ const arrayFunctor: Functor<Arrays> = {
 };
 ```
 
-此刻正欲打算实现名义化类型（`newtype`）与代数数据类型（`data`）。
+此刻正打算实现名义化类型（`newtype`）与代数数据类型（`data`）。
 
 #### [MoPress](https://github.com/biyuehu/mopress)
 
@@ -95,7 +95,7 @@ async fn main {
 }
 ```
 
-为 MoonBit 2026 年 5~7 月开源大赛参数项目，现正作为持续维护项目参加 MoonBit 十月赛。
+为 MoonBit 2026 年 5~7 月开源大赛参赛项目，现正作为持续维护项目参加 MoonBit 十月赛。
 
 #### [MonadBeat](https://github.com/biyuehu/monadbeat)
 
@@ -103,14 +103,14 @@ async fn main {
 - 技术栈：Python、FastAPI、UnoCSS、Solid、TypeScript
 - 参考企划：[MonadBeat / 单子律动](https://gist.github.com/biyuehu/27f199e96e3345519784ca73b4b68549)
 
-一个面向 Haskell 爱好者的刷题网站。区别于普通算法刷题网站(LeetCode、Codewars 等其实也支持 Haskell，但题目和判题方式跟其他语言没什么两样，只是"换个语言写算法题")，MonadBeat 专注做只有 Haskell / 类型系统语境下才有意义的题目——玩类型推导、玩惰性求值、玩代数结构定律，而不是刷普通算法题。
+一个面向 Haskell 爱好者的刷题网站。区别于普通算法刷题网站（LeetCode、Codewars 等其实也支持 Haskell，但题目和判题方式跟其他语言没什么两样，只是"换个语言写算法题"），MonadBeat 专注做只有 Haskell / 类型系统语境下才有意义的题目——玩类型推导、玩惰性求值、玩代数结构定律，而不是刷普通算法题。
 
 ### 持续维护中项目
 
 #### **[RomiNest](https://github.com/biyuehu/romi-nest)**
 
 - 开始：2024.10
-- 技术栈：Angular、TypeScript、Rust、Axum、Sea-ORM、Lit、UuoCSS、Bun
+- 技术栈：Angular、TypeScript、Rust、Axum、Sea-ORM、Lit、UnoCSS、Bun
 - 介绍文章：[耗时两年，我做了这个极致个人化的全栈博客系统](https://i.arimuraromi.com/post/this-site)
 - 介绍视频：[极致个人化的全栈开源博客项目基于Rust与Angular！](https://www.bilibili.com/video/BV1P4tJ6eEYC)
 
@@ -137,9 +137,9 @@ async fn main {
 
 - 开始：2026.8
 
-一个轻量级、基于 DSL 驱动的 AI 工具，用于文件操作、代码修改和命令执行——为网页和客户端AI助手而设计。
+一个轻量级、基于 DSL 驱动的 AI 工具，用于文件操作、代码修改和命令执行——为网页和客户端 AI 助手而设计。
 
-Web Agent 与众不同：兼容任何网页AI——复制生成的提示，将其粘贴到浏览器的AI聊天中（Claude、ChatGPT、DeepSeek等），让 AI 返回 DSL 命令（基于 MarkDown）。零成本且免费，无需 API 调用，白嫖网页 AI 额度。即时，在本地使用 Bun 运行。透明，在执行前，你可以看到每一个文件变更和命令。它弥合了“浏览器中的AI”和“你机器上的文件”之间的差距。
+Web Agent 与众不同：兼容任何网页 AI——复制生成的提示，将其粘贴到浏览器的 AI 聊天中（Claude、ChatGPT、DeepSeek 等），让 AI 返回 DSL 命令（基于 MarkDown）。零成本且免费，无需 API 调用，白嫖网页 AI 额度。即时，在本地使用 Bun 运行。透明，在执行前，你可以看到每一个文件变更和命令。它弥合了“浏览器中的 AI”和“你机器上的文件”之间的差距。
 
 #### **[KotoriBot](https://github.com/kotorijs/kotori)**
 
@@ -193,7 +193,7 @@ Fn((ctx) => { /* ... */ })    // fully custom handling
 
 一门基于 Rust 开发的支持多后端、多范式、现代化的函数式编程语言。计划支持一等类型、类型类、列表推导式、代数效果系统、RankNTypes、FOmega（HKT）、LLVM / WASM / Native C 等后端。现已实现基本语法、代数数据类型、模式匹配、自定义中缀运算符、JS 后端、直接解释器、一等类型。
 
-最不别具一格的设计是关于类型宇宙与依赖类型的取舍：[详情](https://github.com/biyuehu/sena-lang#advantages)。
+最独特的设计是关于类型宇宙与依赖类型的取舍：[详情](https://github.com/biyuehu/sena-lang#advantages)。
 
 计划是在完善类型理论、范畴论、程序语言理论的知识储备后（主要是指基本学完 *Types And Programming Language* 后），作为本科期间的长期开发作品。
 
@@ -202,7 +202,7 @@ Fn((ctx) => { /* ... */ })    // fully custom handling
 #### [SenaMusic](https://github.com/biyuehu/sena-music)
 
 - 开始：2026.5
-- 技术栈：TypeScrip、Lit-html、WebComponents、Zod、tRPC、Android、Desktop、UnoCSS
+- 技术栈：TypeScript、Lit-html、WebComponents、Zod、tRPC、Android、Desktop、UnoCSS
 
 一个轻量级的自托管音乐播放器，将来自多个来源的歌曲汇集到统一的播放列表中（以网易云音乐源作为主要来源播放列表）。你可以听需要 VIP 的歌曲或在大陆被禁播的歌曲。已支持 网易云音乐、QQ 音乐、BiliBili、YouTube 源获取。计划支持 Android、Windows、Web 三平台。
 
@@ -294,13 +294,13 @@ httpClient.setSongOrder({ id, order: newIndex }).then((res) => ...)
 - 介绍视频：[我用四门函数式语言写了一个CRUD项目](https://www.bilibili.com/video/BV1QZub6bEfz)
 - 技术栈：PureScript、Elm、Haskell、Idris2、TypeScript、Python、DHall、LevelDB、Bun、Node.JS、UnoCSS
 
-前端采用 Elm 编程语言与 Vite，后端采用自行用 PureScript 编程语言、基于 Node.JS 的 http 库与 Monad 变换器封装的核心（被 Monad 强大和恐怖吓哭），数据库采用 Idris2 编程语言基于 LevelDB 封装，通过 JS FFI 对接 PureScript 后端。前后端共同类型使用 Haskell 编程语言表示，Elm 与 PureScript 的代码生成通过 Python 脚本实现。前后端胶水代码使用微量 TypeScript、JavaScript、CSS、HTML。样式采用 UnoCSS。配置文件采用 DHall。开发工具采用 Bun、Just、
+前端采用 Elm 编程语言与 Vite，后端采用自行用 PureScript 编程语言、基于 Node.JS 的 http 库与 Monad 变换器封装的核心（被 Monad 强大和恐怖吓哭），数据库采用 Idris2 编程语言基于 LevelDB 封装，通过 JS FFI 对接 PureScript 后端。前后端共同类型使用 Haskell 编程语言表示，Elm 与 PureScript 的代码生成通过 Python 脚本实现。前后端胶水代码使用微量 TypeScript、JavaScript、CSS、HTML。样式采用 UnoCSS。配置文件采用 DHall。开发工具采用 Bun、Just。
 
-毫无疑问，这从未打算做成正经的项目给人用，它的功能本身就是 Demo 级的（实用性为零），但又绝对不同于任何低劣的 Demo。 想到如果它用正常的 TypeScript 写的话，很快就能做完甚至做得更强，但显然这业务本身是毫无趣点吸引我，而且简单至极，故前提不成立。 既然如此，我觉得有没有人用更无所谓了，毕竟最大乐趣已经漂移到过程本身了。
+毫无疑问，这从未打算做成正经的项目给人用，它的功能本身就是 Demo 级的（实用性为零），但又绝对不同于任何低劣的 Demo。想到如果它用正常的 TypeScript 写的话，很快就能做完甚至做得更强，但显然这业务本身是毫无趣点吸引我，而且简单至极，故前提不成立。既然如此，我觉得有没有人用更无所谓了，毕竟最大乐趣已经漂移到过程本身了。
 
-过程是异常有趣的，高度的精确至空行数量与结尾空行的代码洁癖姑且算是一股清流了。这绝不是一个面向工业的正经项目，但或许是一回有趣的过程体验，一个别样的行为艺术，一次独特的个人表达，一场无聊的炫技表演，或者说对人人都在追求 AI 高效率高节奏开发的时代潮流中最彻骨的叛逆。
+过程是异常有趣的，高度精确至空行数量与结尾空行的代码洁癖姑且算是一股清流了。这绝不是一个面向工业的正经项目，但或许是一回有趣的过程体验，一个别样的行为艺术，一次独特的个人表达，一场无聊的炫技表演，或者说对人人都在追求 AI 高效率高节奏开发的时代潮流中最彻骨的叛逆。
 
-对于过程，多少还是了能学到不少东西（重要程度降序）：
+对于过程，多少还是能学到不少东西（重要程度降序）：
 
 - 多种语言操作、FFI 对接
 - 多语言构建流程搭建、调度、设计
@@ -332,7 +332,7 @@ httpClient.setSongOrder({ id, order: newIndex }).then((res) => ...)
 - 时间：2025.1
 - 技术栈：tsup、tsx、Rust、Salvo
 
-基于原生 BDS 运行的下一代最全面的 Minecraft 基岩版 BDS 服务器基础&综合性功能插件。问基岩版 Addon 提供了文件操作、数据库操作的能力，同时有了成套的 TPA、HOME、LAND、HELPER 等非零散性的基础服务器插件。宗旨继承于 Sirius1，亮点我想是为五年前搞 MC 开发的我所在的那个地方传来了工程化开发的火种。不再持续维护。第一次学习到配置 tsup 工具打包 TypeScript 以及 tsx 这一运行工具。
+基于原生 BDS 运行的下一代最全面的 Minecraft 基岩版 BDS 服务器基础&综合性功能插件。为基岩版 Addon 提供了文件操作、数据库操作的能力，同时有了成套的 TPA、HOME、LAND、HELPER 等非零散性的基础服务器插件。宗旨继承于 Sirius1，亮点我想是为五年前搞 MC 开发的我所在的那个地方传来了工程化开发的火种。不再持续维护。第一次学习到配置 tsup 工具打包 TypeScript 以及 tsx 这一运行工具。
 
 Sirius1 则是基于 LeviLamina 运行的下一代最全面的 Minecraft 基岩版 BDS 服务器基础&综合性功能插件（然后 LeviLamina 死了，所以有了原生的 Sirius2）。动机是见其 BDS 服务器插件生态百花齐放，但也造就插件质量参差不齐，某个简简单单的功能却还要装多个插件，更不用提很多脚本插件（尤其是 JavaScript）的开发者并未有过工程化开发经历，致使其代码可靠性与可维护性不堪入目还不自知。同时，LeviLamina 不如曾经的 BedrockX 的预装插件就已提供了官方实现、安全可靠的 Tpa、Home、Warp、Menu、Gui、Money、Helper 等多个基础功能，而 Sirius 则正是为 LeviLamina 填补该空缺，此外有不少指令也模仿了 BedrockX 进行实现，意在向 BedrockX 这一经典项目致敬。不再维护。
 
@@ -351,7 +351,7 @@ Sirius1 则是基于 LeviLamina 运行的下一代最全面的 Minecraft 基岩�
 - 时间：2024.6
 - 技术栈：pnpm、TypeScript、Koa、Prisma、Inversify、React、BiomeJS
 
-个人向的角色收藏与管理网站系统。起点很简单，想给二次元老婆一个家，每位都有一个独立页面。印象中是在这里第一次用到 BiomeJS（代替 ESLint、Prettier），想提前体验下 NestJS 框架的那种类似 SpringBoot 的装饰器、依赖注入、AOP 开发风格，于是自己用 Koa（其实可以用 Express，但已经用过所以换了个，Koa 有点坑其实）和 Inversify 库封装了一下。算是第一个有点规模且正式的全栈项目。印象中 React 第一次在这里用，为目录规划头疼了会儿。Prsima 这种 ORM 框架也是第一次用，十分好用，还有 JWT 处理也是在这里第一次。Monorepo 让共同类型问题变得简单，这项目一过，之后其实很少有前后端同时用 TypeScript 开发以至于类型通用的体验了（截止到 SenaMusic 项目），因为后面选后端框架都给了别的语言机会。还有就是通过 Corn 表达式实现了角色生日的邮件提醒。该项目基本不再维护，但其精神、核心以及生日提醒均在 RomiNest 中[复现并统一](https://i.arimuraromi.com/char)（也是在这之后决定自研开发博客系统）。
+个人向的角色收藏与管理网站系统。起点很简单，想给二次元老婆一个家，每位都有一个独立页面。印象中是在这里第一次用到 BiomeJS（代替 ESLint、Prettier），想提前体验下 NestJS 框架的那种类似 SpringBoot 的装饰器、依赖注入、AOP 开发风格，于是自己用 Koa（其实可以用 Express，但已经用过所以换了个，Koa 有点坑其实）和 Inversify 库封装了一下。算是第一个有点规模且正式的全栈项目。印象中 React 第一次在这里用，为目录规划头疼了会儿。Prisma 这种 ORM 框架也是第一次用，十分好用，还有 JWT 处理也是在这里第一次。Monorepo 让共同类型问题变得简单，这项目一过，之后其实很少有前后端同时用 TypeScript 开发以至于类型通用的体验了（截止到 SenaMusic 项目），因为后面选后端框架都给了别的语言机会。还有就是通过 Cron 表达式实现了角色生日的邮件提醒。该项目基本不再维护，但其精神、核心以及生日提醒均在 RomiNest 中[复现并统一](https://i.arimuraromi.com/char)（也是在这之后决定自研开发博客系统）。
 
 #### [HuliTOOL](https://github.com/biyuehu/hulitool)
 
